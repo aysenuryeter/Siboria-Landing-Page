@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,200&display=swap");
-.button, body #web-navbar .navbar .button-area .signUp-button, body .mobile-navbar .button-area .signUp-button, main .container .top .content .button-area .discover {
+.button, body #web-navbar .navbar .button-area .signUp-button, body .mobile-navbar .button-area .signUp-button, main .commonContainer .top .content .button-area .discover {
   background-color: #FF7B29;
   border: none;
   border-radius: 10px;
@@ -196,17 +196,17 @@ main {
           align-items: center;
 }
 
-main .container {
-  width: 1182px;
+main .commonContainer {
+  width: 1182px !important;
 }
 
 @media (max-width: 1100px) {
-  main .container {
+  main .commonContainer {
     width: 100%;
   }
 }
 
-main .container .top {
+main .commonContainer .top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -222,13 +222,13 @@ main .container .top {
 }
 
 @media (max-width: 1200px) {
-  main .container .top {
+  main .commonContainer .top {
     margin-top: 30px;
   }
 }
 
 @media (max-width: 900px) {
-  main .container .top {
+  main .commonContainer .top {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -236,18 +236,18 @@ main .container .top {
   }
 }
 
-main .container .top .content {
+main .commonContainer .top .content {
   width: 528px;
 }
 
 @media (max-width: 620px) {
-  main .container .top .content {
+  main .commonContainer .top .content {
     width: 100%;
     text-align: center;
   }
 }
 
-main .container .top .content h2 {
+main .commonContainer .top .content h2 {
   font-size: 54px;
   color: #263FA3;
   margin-top: 15px;
@@ -255,29 +255,29 @@ main .container .top .content h2 {
 }
 
 @media (max-width: 620px) {
-  main .container .top .content h2 {
+  main .commonContainer .top .content h2 {
     font-size: 45px;
   }
 }
 
-main .container .top .content h2:first-child {
+main .commonContainer .top .content h2:first-child {
   color: #000000;
   margin: 0;
 }
 
-main .container .top .content p {
+main .commonContainer .top .content p {
   color: #949494;
   font-size: 17px;
   font-weight: normal;
 }
 
 @media (max-width: 620px) {
-  main .container .top .content p {
+  main .commonContainer .top .content p {
     font-size: 14px;
   }
 }
 
-main .container .top .content .button-area {
+main .commonContainer .top .content .button-area {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -287,20 +287,20 @@ main .container .top .content .button-area {
 }
 
 @media (max-width: 620px) {
-  main .container .top .content .button-area {
+  main .commonContainer .top .content .button-area {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
 }
 
-main .container .top .content .button-area .discover {
+main .commonContainer .top .content .button-area .discover {
   -webkit-box-shadow: 0 24px 16px -14px rgba(255, 123, 41, 0.31);
           box-shadow: 0 24px 16px -14px rgba(255, 123, 41, 0.31);
   margin-right: 20px;
 }
 
-main .container .top .content .button-area .watch {
+main .commonContainer .top .content .button-area .watch {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -319,7 +319,7 @@ main .container .top .content .button-area .watch {
                         }*/
 }
 
-main .container .top .content .button-area .watch .icon {
+main .commonContainer .top .content .button-area .watch .icon {
   width: 37px;
   height: 37px;
   border-radius: 100%;
@@ -339,20 +339,20 @@ main .container .top .content .button-area .watch .icon {
   margin: 0 11px;
 }
 
-main .container .top .content .button-area .watch p {
+main .commonContainer .top .content .button-area .watch p {
   color: #000000;
   font-size: 14px;
   font-weight: bolder;
 }
 
 @media (max-width: 1200px) {
-  main .container .top .imgArea {
+  main .commonContainer .top .imgArea {
     display: none;
   }
 }
 
 @media (max-width: 900px) {
-  main .container .top .info {
+  main .commonContainer .top .info {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -360,12 +360,12 @@ main .container .top .content .button-area .watch p {
 }
 
 @media (max-width: 720px) {
-  main .container .top .info {
+  main .commonContainer .top .info {
     display: none;
   }
 }
 
-main .container .top .info .card-area {
+main .commonContainer .top .info .card-area {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -374,17 +374,17 @@ main .container .top .info .card-area {
           align-items: center;
 }
 
-main .container .top .info .card-area:nth-child(2) {
+main .commonContainer .top .info .card-area:nth-child(2) {
   margin: 16px 0;
 }
 
 @media (max-width: 900px) {
-  main .container .top .info .card-area:nth-child(2) {
+  main .commonContainer .top .info .card-area:nth-child(2) {
     margin: 30px;
   }
 }
 
-main .container .top .info .card-area .icon-area {
+main .commonContainer .top .info .card-area .icon-area {
   width: 60px;
   height: 60px;
   border-radius: 10px;
@@ -402,17 +402,17 @@ main .container .top .info .card-area .icon-area {
   margin: 0 14px;
 }
 
-main .container .top .info .card-area .icon-area i {
+main .commonContainer .top .info .card-area .icon-area i {
   color: #FF7B29;
   font-size: 24px;
 }
 
-main .container .top .info .card-area .card-info h3 {
+main .commonContainer .top .info .card-area .card-info h3 {
   margin: 0;
   font-size: 36px;
 }
 
-main .container .top .info .card-area .card-info p {
+main .commonContainer .top .info .card-area .card-info p {
   color: #949494;
   font-size: 16px;
   font-weight: normal;
@@ -420,7 +420,7 @@ main .container .top .info .card-area .card-info p {
   margin: 5px 0 0 0;
 }
 
-main .container .bottom {
+main .commonContainer .bottom {
   width: 100%;
   height: 120px;
   border-radius: 10px;
@@ -437,12 +437,12 @@ main .container .bottom {
 }
 
 @media (max-width: 1050px) {
-  main .container .bottom {
+  main .commonContainer .bottom {
     display: none;
   }
 }
 
-main .container .bottom .form-area {
+main .commonContainer .bottom .form-area {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -456,7 +456,7 @@ main .container .bottom .form-area {
   padding: 0 30px;
 }
 
-main .container .bottom .form-area .form {
+main .commonContainer .bottom .form-area .form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -466,16 +466,16 @@ main .container .bottom .form-area .form {
           justify-content: space-between;
 }
 
-main .container .bottom .form-area .form .dropdown-area {
+main .commonContainer .bottom .form-area .form .dropdown-area {
   font-size: 16px;
 }
 
-main .container .bottom .form-area .form .dropdown-area .select {
+main .commonContainer .bottom .form-area .form .dropdown-area .select {
   position: relative;
   min-width: 130px;
 }
 
-main .container .bottom .form-area .form .dropdown-area .select select {
+main .commonContainer .bottom .form-area .form .dropdown-area .select select {
   width: 100%;
   border: none;
   background: none;
@@ -486,13 +486,13 @@ main .container .bottom .form-area .form .dropdown-area .select select {
   margin-top: 20px;
 }
 
-main .container .bottom .form-area .button, main .container .bottom .form-area body #web-navbar .navbar .button-area .signUp-button, body #web-navbar .navbar .button-area main .container .bottom .form-area .signUp-button, main .container .bottom .form-area body .mobile-navbar .button-area .signUp-button, body .mobile-navbar .button-area main .container .bottom .form-area .signUp-button, main .container .bottom .form-area .top .content .button-area .discover, main .container .top .content .button-area .bottom .form-area .discover {
+main .commonContainer .bottom .form-area .button, main .commonContainer .bottom .form-area body #web-navbar .navbar .button-area .signUp-button, body #web-navbar .navbar .button-area main .commonContainer .bottom .form-area .signUp-button, main .commonContainer .bottom .form-area body .mobile-navbar .button-area .signUp-button, body .mobile-navbar .button-area main .commonContainer .bottom .form-area .signUp-button, main .commonContainer .bottom .form-area .top .content .button-area .discover, main .commonContainer .top .content .button-area .bottom .form-area .discover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main .container .bottom .form-area .button.search, main .container .bottom .form-area body #web-navbar .navbar .button-area .search.signUp-button, body #web-navbar .navbar .button-area main .container .bottom .form-area .search.signUp-button, main .container .bottom .form-area body .mobile-navbar .button-area .search.signUp-button, body .mobile-navbar .button-area main .container .bottom .form-area .search.signUp-button, main .container .bottom .form-area .top .content .button-area .search.discover, main .container .top .content .button-area .bottom .form-area .search.discover {
+main .commonContainer .bottom .form-area .button.search, main .commonContainer .bottom .form-area body #web-navbar .navbar .button-area .search.signUp-button, body #web-navbar .navbar .button-area main .commonContainer .bottom .form-area .search.signUp-button, main .commonContainer .bottom .form-area body .mobile-navbar .button-area .search.signUp-button, body .mobile-navbar .button-area main .commonContainer .bottom .form-area .search.signUp-button, main .commonContainer .bottom .form-area .top .content .button-area .search.discover, main .commonContainer .top .content .button-area .bottom .form-area .search.discover {
   background-color: #132742;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -507,7 +507,7 @@ main .container .bottom .form-area .button.search, main .container .bottom .form
   height: 60px;
 }
 
-main .container .bottom .form-area .button.search .text, main .container .bottom .form-area body #web-navbar .navbar .button-area .search.signUp-button .text, body #web-navbar .navbar .button-area main .container .bottom .form-area .search.signUp-button .text, main .container .bottom .form-area body .mobile-navbar .button-area .search.signUp-button .text, body .mobile-navbar .button-area main .container .bottom .form-area .search.signUp-button .text, main .container .bottom .form-area .top .content .button-area .search.discover .text, main .container .top .content .button-area .bottom .form-area .search.discover .text {
+main .commonContainer .bottom .form-area .button.search .text, main .commonContainer .bottom .form-area body #web-navbar .navbar .button-area .search.signUp-button .text, body #web-navbar .navbar .button-area main .commonContainer .bottom .form-area .search.signUp-button .text, main .commonContainer .bottom .form-area body .mobile-navbar .button-area .search.signUp-button .text, body .mobile-navbar .button-area main .commonContainer .bottom .form-area .search.signUp-button .text, main .commonContainer .bottom .form-area .top .content .button-area .search.discover .text, main .commonContainer .top .content .button-area .bottom .form-area .search.discover .text {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -519,12 +519,12 @@ main .container .bottom .form-area .button.search .text, main .container .bottom
           align-items: center;
 }
 
-main .container .bottom .form-area .button.search .text i, main .container .bottom .form-area body #web-navbar .navbar .button-area .search.signUp-button .text i, body #web-navbar .navbar .button-area main .container .bottom .form-area .search.signUp-button .text i, main .container .bottom .form-area body .mobile-navbar .button-area .search.signUp-button .text i, body .mobile-navbar .button-area main .container .bottom .form-area .search.signUp-button .text i, main .container .bottom .form-area .top .content .button-area .search.discover .text i, main .container .top .content .button-area .bottom .form-area .search.discover .text i {
+main .commonContainer .bottom .form-area .button.search .text i, main .commonContainer .bottom .form-area body #web-navbar .navbar .button-area .search.signUp-button .text i, body #web-navbar .navbar .button-area main .commonContainer .bottom .form-area .search.signUp-button .text i, main .commonContainer .bottom .form-area body .mobile-navbar .button-area .search.signUp-button .text i, body .mobile-navbar .button-area main .commonContainer .bottom .form-area .search.signUp-button .text i, main .commonContainer .bottom .form-area .top .content .button-area .search.discover .text i, main .commonContainer .top .content .button-area .bottom .form-area .search.discover .text i {
   font-size: 24px;
   margin-right: 10px;
 }
 
-main .container .bottom .form-area .button.search .text p, main .container .bottom .form-area body #web-navbar .navbar .button-area .search.signUp-button .text p, body #web-navbar .navbar .button-area main .container .bottom .form-area .search.signUp-button .text p, main .container .bottom .form-area body .mobile-navbar .button-area .search.signUp-button .text p, body .mobile-navbar .button-area main .container .bottom .form-area .search.signUp-button .text p, main .container .bottom .form-area .top .content .button-area .search.discover .text p, main .container .top .content .button-area .bottom .form-area .search.discover .text p {
+main .commonContainer .bottom .form-area .button.search .text p, main .commonContainer .bottom .form-area body #web-navbar .navbar .button-area .search.signUp-button .text p, body #web-navbar .navbar .button-area main .commonContainer .bottom .form-area .search.signUp-button .text p, main .commonContainer .bottom .form-area body .mobile-navbar .button-area .search.signUp-button .text p, body .mobile-navbar .button-area main .commonContainer .bottom .form-area .search.signUp-button .text p, main .commonContainer .bottom .form-area .top .content .button-area .search.discover .text p, main .commonContainer .top .content .button-area .bottom .form-area .search.discover .text p {
   font-size: 16px;
   font-weight: normal;
 }
@@ -548,7 +548,7 @@ section {
   }
 }
 
-.container {
+.commonContainer {
   width: 1182px;
 }
 
@@ -584,7 +584,7 @@ section {
           align-items: center;
 }
 
-.text-area .title .button-area .button, .text-area .title body #web-navbar .navbar .button-area .signUp-button, body #web-navbar .navbar .text-area .title .button-area .signUp-button, .text-area .title body .mobile-navbar .button-area .signUp-button, body .mobile-navbar .text-area .title .button-area .signUp-button, .text-area .title main .container .top .content .button-area .discover, main .container .top .content .text-area .title .button-area .discover {
+.text-area .title .button-area .button, .text-area .title body #web-navbar .navbar .button-area .signUp-button, body #web-navbar .navbar .text-area .title .button-area .signUp-button, .text-area .title body .mobile-navbar .button-area .signUp-button, body .mobile-navbar .text-area .title .button-area .signUp-button, .text-area .title main .commonContainer .top .content .button-area .discover, main .commonContainer .top .content .text-area .title .button-area .discover {
   width: 50px;
   height: 50px;
   border-radius: 100%;
@@ -599,28 +599,28 @@ section {
           align-items: center;
 }
 
-.text-area .title .button-area .button.white, .text-area .title body #web-navbar .navbar .button-area .white.signUp-button, body #web-navbar .navbar .text-area .title .button-area .white.signUp-button, .text-area .title body .mobile-navbar .button-area .white.signUp-button, body .mobile-navbar .text-area .title .button-area .white.signUp-button, .text-area .title main .container .top .content .button-area .white.discover, main .container .top .content .text-area .title .button-area .white.discover {
+.text-area .title .button-area .button.white, .text-area .title body #web-navbar .navbar .button-area .white.signUp-button, body #web-navbar .navbar .text-area .title .button-area .white.signUp-button, .text-area .title body .mobile-navbar .button-area .white.signUp-button, body .mobile-navbar .text-area .title .button-area .white.signUp-button, .text-area .title main .commonContainer .top .content .button-area .white.discover, main .commonContainer .top .content .text-area .title .button-area .white.discover {
   background-color: #ffffff;
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 4, 0.15);
           box-shadow: 0 0 4px rgba(0, 0, 4, 0.15);
   margin-right: 15px;
 }
 
-.text-area .title .button-area .button.white i, .text-area .title body #web-navbar .navbar .button-area .white.signUp-button i, body #web-navbar .navbar .text-area .title .button-area .white.signUp-button i, .text-area .title body .mobile-navbar .button-area .white.signUp-button i, body .mobile-navbar .text-area .title .button-area .white.signUp-button i, .text-area .title main .container .top .content .button-area .white.discover i, main .container .top .content .text-area .title .button-area .white.discover i {
+.text-area .title .button-area .button.white i, .text-area .title body #web-navbar .navbar .button-area .white.signUp-button i, body #web-navbar .navbar .text-area .title .button-area .white.signUp-button i, .text-area .title body .mobile-navbar .button-area .white.signUp-button i, body .mobile-navbar .text-area .title .button-area .white.signUp-button i, .text-area .title main .commonContainer .top .content .button-area .white.discover i, main .commonContainer .top .content .text-area .title .button-area .white.discover i {
   color: #000000;
 }
 
-.text-area .title .button-area .button.orange, .text-area .title body #web-navbar .navbar .button-area .orange.signUp-button, body #web-navbar .navbar .text-area .title .button-area .orange.signUp-button, .text-area .title body .mobile-navbar .button-area .orange.signUp-button, body .mobile-navbar .text-area .title .button-area .orange.signUp-button, .text-area .title main .container .top .content .button-area .orange.discover, main .container .top .content .text-area .title .button-area .orange.discover {
+.text-area .title .button-area .button.orange, .text-area .title body #web-navbar .navbar .button-area .orange.signUp-button, body #web-navbar .navbar .text-area .title .button-area .orange.signUp-button, .text-area .title body .mobile-navbar .button-area .orange.signUp-button, body .mobile-navbar .text-area .title .button-area .orange.signUp-button, .text-area .title main .commonContainer .top .content .button-area .orange.discover, main .commonContainer .top .content .text-area .title .button-area .orange.discover {
   background-color: #FF7B29;
   -webkit-box-shadow: 0 9px 12px -3px rgba(255, 123, 41, 0.35);
           box-shadow: 0 9px 12px -3px rgba(255, 123, 41, 0.35);
 }
 
-.text-area .title .button-area .button.orange i, .text-area .title body #web-navbar .navbar .button-area .orange.signUp-button i, body #web-navbar .navbar .text-area .title .button-area .orange.signUp-button i, .text-area .title body .mobile-navbar .button-area .orange.signUp-button i, body .mobile-navbar .text-area .title .button-area .orange.signUp-button i, .text-area .title main .container .top .content .button-area .orange.discover i, main .container .top .content .text-area .title .button-area .orange.discover i {
+.text-area .title .button-area .button.orange i, .text-area .title body #web-navbar .navbar .button-area .orange.signUp-button i, body #web-navbar .navbar .text-area .title .button-area .orange.signUp-button i, .text-area .title body .mobile-navbar .button-area .orange.signUp-button i, body .mobile-navbar .text-area .title .button-area .orange.signUp-button i, .text-area .title main .commonContainer .top .content .button-area .orange.discover i, main .commonContainer .top .content .text-area .title .button-area .orange.discover i {
   color: #ffffff;
 }
 
-.text-area .title .button-area .button i, .text-area .title body #web-navbar .navbar .button-area .signUp-button i, body #web-navbar .navbar .text-area .title .button-area .signUp-button i, .text-area .title body .mobile-navbar .button-area .signUp-button i, body .mobile-navbar .text-area .title .button-area .signUp-button i, .text-area .title main .container .top .content .button-area .discover i, main .container .top .content .text-area .title .button-area .discover i {
+.text-area .title .button-area .button i, .text-area .title body #web-navbar .navbar .button-area .signUp-button i, body #web-navbar .navbar .text-area .title .button-area .signUp-button i, .text-area .title body .mobile-navbar .button-area .signUp-button i, body .mobile-navbar .text-area .title .button-area .signUp-button i, .text-area .title main .commonContainer .top .content .button-area .discover i, main .commonContainer .top .content .text-area .title .button-area .discover i {
   font-size: 16px;
 }
 
@@ -746,7 +746,7 @@ section {
   color: #000000;
 }
 
-#categories .container .category {
+#categories .commonContainer .category {
   position: relative;
   width: 95%;
   height: 170px;
@@ -755,7 +755,7 @@ section {
   padding: 15px;
 }
 
-#categories .container .category::after {
+#categories .commonContainer .category::after {
   content: '';
   position: absolute;
   top: 0;
@@ -768,17 +768,17 @@ section {
   opacity: 0.7;
 }
 
-#categories .container .category.x2 {
+#categories .commonContainer .category.x2 {
   height: 370px;
 }
 
-#categories .container .category .category-img {
+#categories .commonContainer .category .category-img {
   float: right;
   height: 100%;
   z-index: -1;
 }
 
-#categories .container .category .button-area {
+#categories .commonContainer .category .button-area {
   position: absolute;
   z-index: 999;
   background-color: #ffffff;
@@ -798,33 +798,33 @@ section {
           align-items: center;
 }
 
-#categories .container .category .button-area p {
+#categories .commonContainer .category .button-area p {
   color: #FF7B29;
   font-size: 16px;
   margin: 0;
   font-weight: bolder;
 }
 
-#categories .container .category .text {
+#categories .commonContainer .category .text {
   position: absolute;
   bottom: 0;
   z-index: 999;
 }
 
-#categories .container .category .text .category-title {
+#categories .commonContainer .category .text .category-title {
   font-size: 18px;
   color: #ffffff;
   font-weight: bolder;
 }
 
-#categories .container .category .text .category-desc {
+#categories .commonContainer .category .text .category-desc {
   font-size: 12px;
   font-weight: normal;
   color: #D6D6D6;
   margin-top: 5px;
 }
 
-#feedback .container {
+#feedback .commonContainer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -837,35 +837,35 @@ section {
 }
 
 @media (max-width: 1200px) {
-  #feedback .container .left-area {
+  #feedback .commonContainer .left-area {
     display: none;
   }
 }
 
-#feedback .container .right-area {
+#feedback .commonContainer .right-area {
   width: 490px;
   margin-left: 100px;
 }
 
 @media (max-width: 1200px) {
-  #feedback .container .right-area {
+  #feedback .commonContainer .right-area {
     width: 100%;
     margin-left: 0;
   }
 }
 
-#feedback .container .right-area h3 {
+#feedback .commonContainer .right-area h3 {
   margin: 0;
   font-size: 46px;
 }
 
 @media (max-width: 720px) {
-  #feedback .container .right-area h3 {
+  #feedback .commonContainer .right-area h3 {
     font-size: 35px;
   }
 }
 
-#feedback .container .right-area p {
+#feedback .commonContainer .right-area p {
   color: #949494;
   font-size: 16px;
   font-weight: normal;
@@ -874,7 +874,7 @@ section {
   margin: 20px 0;
 }
 
-#feedback .container .right-area .info-card {
+#feedback .commonContainer .right-area .info-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -884,31 +884,31 @@ section {
   margin-top: 20px;
 }
 
-#feedback .container .right-area .info-card .photo {
+#feedback .commonContainer .right-area .info-card .photo {
   width: 64px;
   height: 64px;
   margin-right: 20px;
 }
 
-#feedback .container .right-area .info-card .photo img {
+#feedback .commonContainer .right-area .info-card .photo img {
   width: 100%;
   height: 100%;
   border-radius: 100%;
 }
 
-#feedback .container .right-area .info-card .text * {
+#feedback .commonContainer .right-area .info-card .text * {
   margin: 0;
   font-size: 14px !important;
 }
 
-#feedback .container .right-area .info-card .text p {
+#feedback .commonContainer .right-area .info-card .text p {
   color: #949494;
   font-size: 16px;
   font-weight: normal;
   line-height: 180.9%;
 }
 
-#feedback .container .right-area .info-card .text i {
+#feedback .commonContainer .right-area .info-card .text i {
   color: #FFB800;
   font-size: 12px;
 }
@@ -929,7 +929,7 @@ section {
   }
 }
 
-#newsletter .container {
+#newsletter .commonContainer {
   border-radius: 30px;
   background-color: #132742;
   display: -webkit-box;
@@ -939,14 +939,14 @@ section {
 }
 
 @media (max-width: 1200px) {
-  #newsletter .container {
+  #newsletter .commonContainer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
 }
 
-#newsletter .container .left-area {
+#newsletter .commonContainer .left-area {
   padding: 75px 70px;
   height: 250px;
   display: -webkit-box;
@@ -961,16 +961,16 @@ section {
           justify-content: space-between;
 }
 
-#newsletter .container .left-area .text * {
+#newsletter .commonContainer .left-area .text * {
   margin: 0;
   color: #ffffff;
 }
 
-#newsletter .container .left-area .text h2 {
+#newsletter .commonContainer .left-area .text h2 {
   font-size: 39px;
 }
 
-#newsletter .container .left-area .text p {
+#newsletter .commonContainer .left-area .text p {
   color: #949494;
   font-size: 16px;
   font-weight: normal;
@@ -979,7 +979,7 @@ section {
   margin-top: 14px;
 }
 
-#newsletter .container .left-area .email {
+#newsletter .commonContainer .left-area .email {
   width: 480px;
   position: relative;
   display: -webkit-box;
@@ -993,7 +993,7 @@ section {
           justify-content: flex-end;
 }
 
-#newsletter .container .left-area .email input {
+#newsletter .commonContainer .left-area .email input {
   margin: 0px;
   padding-left: 30px;
   width: 100%;
@@ -1003,36 +1003,36 @@ section {
   border-radius: 10px;
 }
 
-#newsletter .container .left-area .email input::-webkit-input-placeholder {
+#newsletter .commonContainer .left-area .email input::-webkit-input-placeholder {
   font-weight: normal;
   font-size: 16px;
   color: #D1D1D1;
 }
 
-#newsletter .container .left-area .email input:-ms-input-placeholder {
+#newsletter .commonContainer .left-area .email input:-ms-input-placeholder {
   font-weight: normal;
   font-size: 16px;
   color: #D1D1D1;
 }
 
-#newsletter .container .left-area .email input::-ms-input-placeholder {
+#newsletter .commonContainer .left-area .email input::-ms-input-placeholder {
   font-weight: normal;
   font-size: 16px;
   color: #D1D1D1;
 }
 
-#newsletter .container .left-area .email input::placeholder {
+#newsletter .commonContainer .left-area .email input::placeholder {
   font-weight: normal;
   font-size: 16px;
   color: #D1D1D1;
 }
 
-#newsletter .container .left-area .email .send-button {
+#newsletter .commonContainer .left-area .email .send-button {
   padding: 10px;
   position: absolute;
 }
 
-#newsletter .container .left-area .email .send-button button {
+#newsletter .commonContainer .left-area .email .send-button button {
   border-radius: 8px;
   border: none;
   cursor: pointer;
@@ -1042,12 +1042,12 @@ section {
           box-shadow: 0 14px 15px -7px rgba(255, 123, 41, 0.54);
 }
 
-#newsletter .container .left-area .email .send-button button i {
+#newsletter .commonContainer .left-area .email .send-button button i {
   padding: 13px;
   font-size: 24px;
 }
 
-#newsletter .container .right-area {
+#newsletter .commonContainer .right-area {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -1055,7 +1055,7 @@ section {
 }
 
 @media (max-width: 1200px) {
-  #newsletter .container .right-area {
+  #newsletter .commonContainer .right-area {
     display: none;
   }
 }
